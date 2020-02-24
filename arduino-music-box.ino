@@ -23,7 +23,7 @@ void setup()
   }
 
   pinMode(PRPin, INPUT);
-  mp3Player.volume(5);
+  mp3Player.volume(10);
   Serial.println(F("MusicBox online!."));
 }
 
